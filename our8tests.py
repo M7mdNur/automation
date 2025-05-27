@@ -31,7 +31,12 @@ def driver():
 def test1(driver):
      profile_pic= driver.find_element(By.CLASS_NAME,"icon-user")
      profile_pic.click()
-     sleep(20)
+     print("Hello Wrold")
+     sleep(5)
+
+
+#helloooo
+
 
 # def test2(driver):
 #     profile_pic= driver.find_element(By.CLASS_NAME,"icon-user")
